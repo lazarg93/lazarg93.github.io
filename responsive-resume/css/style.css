@@ -72,6 +72,7 @@ nav {
       border:.0625rem solid #333;
       background-color:#d08f8f;
       position:static;
+      align-self: auto;
     
 }
 
