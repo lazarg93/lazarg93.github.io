@@ -71,7 +71,7 @@ nav {
       width:14rem;
       border:.0625rem solid #333;
       background-color:#d08f8f;
-      position:fixed;
+      position:static;
     
 }
 
@@ -94,7 +94,7 @@ nav p a {
     color:#B1BED3;
 }
 
-nav p a:hover,
+
 figcaption a:hover {
     color:#495F83;
     text-decoration:none;
