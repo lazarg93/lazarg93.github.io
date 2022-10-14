@@ -16,11 +16,11 @@
         --font-two:'Silkscreen', serif;
 }
 body {
-        font-family:'oswald';
-        margin:0%;
-        box-sizing: border-box;
+        font-family:var(--font-two);
+        margin:0;
         color:brown;
         background-color:beige;
+        box-sizing: border-box;
 }
 
 .icons {
@@ -39,6 +39,7 @@ body {
     padding: .5px;
     background-image: url(https://i.picsum.photos/id/1006/3000/2000.jpg?hmac=x83pQQ7LW1UTo8HxBcIWuRIVeN_uCg0cG6keXvNvM8g);
     background: #4c85ba;
+    align-content: center;
 }
 .silly img{
     width: 100%;
@@ -54,9 +55,14 @@ clip-path: circle(5,5);
     background: url(https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk) no-repeat;
     background-repeat: repeat-y;
     background-position:center;
+    background-size: cover;
+    display: flex;
+	height:120vh;
+	justify-content:center;
+	align-items:center;
     top: 30;
-    padding:12rem;
-    text-align: center;
+    padding:0 12rem;
+    text-align:center;
 }
 
 .primary-heading h1 {
@@ -80,12 +86,13 @@ clip-path: circle(5,5);
     font-weight: 500;
 
 }
-.primary-heading p a:hover {
+.primary-heading p a:hover button{
 text-decoration: line-through;
 color:rgba(200, 200, 200, .5)
 }
 .primary-heading p {
     font-size:6rem;
     color: brown;
+    border-color: azure;
 }
 
