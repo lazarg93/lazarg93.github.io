@@ -34,8 +34,8 @@ body {
 }
 
 .icons img {
-    width:100%;
-    max-width:70px;
+    width:fit-content;
+    max-width:100px;
     padding: .5px;
     background-image: url(https://i.picsum.photos/id/1006/3000/2000.jpg?hmac=x83pQQ7LW1UTo8HxBcIWuRIVeN_uCg0cG6keXvNvM8g);
     background: #4c85ba;
@@ -64,7 +64,7 @@ clip-path: circle(5,5);
 }
 
 .primary-heading h1 a {
-    font-family: 'Oswald';
+    font-family: var(--font-one);
     font-size:6rem;
     color:rgba(200, 200, 200, .5);
     text-decoration: none;
