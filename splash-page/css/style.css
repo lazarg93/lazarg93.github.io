@@ -11,7 +11,10 @@
     font-weight:100 900;
     font-style:normal;
 }
-
+:root {
+        --font-one:'Oswald', serif;
+        --font-two:'Silkscreen', serif;
+}
 body {
         font-family:'oswald';
         margin:0%;
@@ -21,13 +24,13 @@ body {
 }
 
 .icons {
-    padding:2%;
+    padding:20%;
     text-align: center;
     
 }
 
 .icons a {
-    text-decoration: none;
+    text-decoration: dotted;
 }
 
 .icons img {
@@ -50,6 +53,11 @@ body {
     top: 30;
     padding:12rem;
     text-align: center;
+    clip-path: circle(0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 6vw)
+    );
 }
 
 .primary-heading h1 {
