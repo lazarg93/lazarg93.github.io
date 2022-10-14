@@ -1,0 +1,115 @@
+@font-face {
+    font-family:'Oswald';
+    src: url(../fonts/Oswald-Regular.ttf);
+    font-weight:400;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Silkscreen';
+    src: url(../fonts/Silkscreen-Regular.ttf);
+    font-weight:100 900;
+    font-style:normal;
+}
+:root {
+        --font-one:'Oswald', serif;
+        --font-two:'Silkscreen', serif;
+}
+body {
+        font-family: var(--font-two);
+        margin:0;
+        color:brown;
+        background-color:beige;
+        box-sizing: border-box;
+        height: 100%;
+}
+
+.icons {
+    padding:20%;
+    text-align: center;
+    background-size: cover;
+    position:absolute;
+}
+
+.icons a {
+    text-decoration: dotted;
+}
+
+.icons img {
+    width:100%;
+    max-width:100px;
+    padding: .5px;
+    background-image: url(https://i.picsum.photos/id/1006/3000/2000.jpg?hmac=x83pQQ7LW1UTo8HxBcIWuRIVeN_uCg0cG6keXvNvM8g);
+    align-content: center;
+    display: row;
+    
+}
+.silly img{
+    width: 100%;
+    max-width: 50px;
+    margin-bottom: auto;
+}
+.circle {
+clip-path: circle(5,5);
+}
+.primary-heading {
+    position:absolute;
+    width:100%;
+    background: url(https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height:100%;
+	justify-content:center;
+	align-items:center;
+    top:0;
+    padding:0 12rem;
+    text-align:center;
+}
+.primary-heading img {
+    position: relative;
+}
+.primary-heading h1 {
+    margin-bottom:0;
+}
+
+.primary-heading h1 a {
+    font-family: var(--font-one);
+    font-size:6rem;
+    color:rgba(200, 200, 200, .5);
+    text-decoration: none;
+}
+
+.primary-heading h1 a:hover {
+    color:rgba(10, 10, 10, 0.5);
+}
+.primary-heading h1  img {
+    width:50%;
+    max-width:20px;
+    padding: .5px;
+    align-content: center;
+    display: row;
+    margin-top: 50px;
+}
+
+.title {
+    color:#4c85ba;
+    text-decoration: wavy;
+    font-weight: 500;
+
+}
+.primary-heading p a:hover button{
+text-decoration: line-through;
+color:rgba(200, 200, 200, .5)
+}
+.primary-heading p {
+    font-size:6rem;
+    color: brown;
+    border-color: azure;
+    font-family: var(--font-two);
+    font-weight: 500;
+}
+.parent {
+    position:absolute;
+}
+
