@@ -1,0 +1,50 @@
+@font-face {
+    font-family:'Oswald' ;
+    src: url(../fonts/Oswald-Regular.ttf);
+    font-weight: 200 900;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Silkscreen' ;
+    src: url(../fonts/Silkscreen-Regular.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+:root {
+    --font-one:'Oswald', serif;
+    --font-two:'Silkscreen', serif;
+    --primary-color:rgb(7, 0, 0);
+    --primary-background:rgb(174, 16, 188);
+    --top-position:50%;
+    font-size:16px;
+}
+body {
+    font-family: var(--font-one);
+    font-weight: 500;
+    margin: 0%;
+    padding-top: 5%;
+    color:var(--primary-color);
+    background-color: rgb(174, 16, 188);
+}
+.title {
+    background-image: url(../images/IMG_5430.JPG);
+    position: fixed;
+    background-position: center;
+    padding: 10rem;
+    text-align: center;
+}
+.title h1 a {
+    font-family: var(--font-two);
+    font-size: 10rem;
+    color: deeppink;
+    text-decoration: wavy;
+}
+.title h1 a:hover {
+    color: fuchsia;
+}
+
+.link-image img {
+    max-height: 50px;
+    max-width: 50px;
+    align-items: var(--top-position);
+}
