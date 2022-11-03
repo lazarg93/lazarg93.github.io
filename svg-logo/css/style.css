@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color:blanchedalmond;
+}
+header {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.drawing {
+    max-width: 1200px;
+    padding: 1.3rem;
+}
+a > .drawing {
+    max-width: 100%;
+    width: 1200px;
+}
+@media (min-width:1200px){
+    .drawing {
+        border: 5px;
+        border-color: black;
+    }
+}
